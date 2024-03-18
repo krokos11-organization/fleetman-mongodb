@@ -49,7 +49,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: "/mnt/mongodb/"
+    path: "/tmp/mongodb/"
     type: DirectoryOrCreate
 ---
 kind: Service
